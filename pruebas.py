@@ -1,11 +1,19 @@
-def mostrarNumero(a):
-    for i in range(1, a + 1):
-        if i % 2 != 0:
-            print(i, end=", ")
-    return a
+def primo(n):
+    if n <= 1:
+        return False
+    for i in range(2, n):
+        if n % i == 0:
+            return False
+    return True
+
 
 def main():
-    numero = int(input("Introduce un numero entero:"))
-    mostrarNumero(numero)
+    n = int(input("Introduce un número: "))
+
+    if primo(n):
+        print("El número es primo.")
+    else:
+        print("El número no es primo.")
+
 
 main()
