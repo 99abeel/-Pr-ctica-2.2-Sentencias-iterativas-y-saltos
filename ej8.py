@@ -21,5 +21,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-    n = int(input("Introduce un número entero: "))
 
