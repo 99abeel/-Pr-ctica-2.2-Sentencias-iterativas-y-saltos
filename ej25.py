@@ -18,4 +18,4 @@ for palabra in palabras:
         palabra_mas_larga = palabra
 
 print("Cantidad de palabras:", cantidad_palabras)
-print("Palabra mas larga: ", palabra_mas_larga)
+print("Palabra mas larga:", palabra_mas_larga)
